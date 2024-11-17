@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Project Website Alpha</title>
     <link rel="stylesheet" href="stylesheet.css" />
     <!--google fonts (Raleway header, Nunito body)-->
@@ -16,7 +16,7 @@
     <!--menu icon-->
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&icon_names=menu"
     />
     <!--end menu icon-->
   </head>
@@ -25,13 +25,13 @@
     <header>
       <h1>Alex Mackenzie 3D Artist</h1>
       <nav>
-        <ul>
+        <ul id="nav-items">
           <li><a href="index.html">home</a></li>
           <li><a href="1">about</a></li>
           <li><a href="2">portfolio</a></li>
           <li><a href="3">contact</a></li>
         </ul>
-        <a class="toggle"
+        <a class="toggle" onclick="showNav()"
           ><span class="material-symbols-outlined"> menu </span></a
         >
       </nav>
@@ -39,12 +39,12 @@
 
     <main>
       <!--hero-->
-      <section>
+      <section class="hero">
         <h2>Where Your Imagination Meets Reality.</h2>
-        <!--Use as background image-->
         <img
-          src="images/Cup o' tea.jpg"
-          alt="donut on a plate in a donut shop."
+          class="hero-img"
+          src="images/cup-of-tea.jpg"
+          alt="donut on a plat in a donut shop"
         />
       </section>
       <!--about-->
@@ -75,7 +75,7 @@
         <h2>My Projects</h2>
         <article>
           <img
-            src="images/Cup o' tea.jpg"
+            src="images/cup-of-tea.jpg"
             alt="donut on a plate inside donut shop."
           />
           <h3>Donut Project</h3>

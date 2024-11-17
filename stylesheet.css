@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  font-size: 1.6rem;
   background-color: #b7c9e2;
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -10,16 +11,41 @@ body {
 }
 
 header {
+  display: grid;
   grid-column: 1/5;
+  width: 35rem;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 2rem;
   color: #4a4a4a;
   font-family: "Raleway", serif;
   font-optical-sizing: auto;
   font-style: normal;
+  width: 100%;
 }
+
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+nav ul {
+  display: none;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+nav .toggle {
+  align-self: flex-end;
+  position: absolute;
+}
+
+.show-items {
+  display: flex;
+}
+
 nav a {
   text-decoration: none;
   color: #4a4a4a;
@@ -32,15 +58,27 @@ nav li {
   display: flex;
   justify-content: space-between;
   padding: 8px;
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: uppercase;
-  list-style-type: none;
 }
 
+.hero h2 {
+  padding-top: 15px;
+  font-size: 2rem;
+}
+.hero-img {
+  width: 100%;
+  height: auto;
+}
 footer {
   grid-column: 1 / 5;
 }
+
 @media only screen and (min-width: 1200px) {
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
   nav .toggle {
     display: none;
   }
