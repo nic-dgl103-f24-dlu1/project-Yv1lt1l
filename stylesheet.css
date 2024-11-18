@@ -13,7 +13,6 @@ body {
 header {
   display: grid;
   grid-column: 1/5;
-  width: 35rem;
 }
 
 h1 {
@@ -22,13 +21,11 @@ h1 {
   font-family: "Raleway", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  width: 100%;
 }
 
 nav {
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 
 nav ul {
@@ -61,15 +58,35 @@ nav li {
   font-size: 2rem;
   text-transform: uppercase;
 }
+.hero {
+  max-width: 100%;
+  height: auto;
+}
 
 .hero h2 {
   padding-top: 15px;
   font-size: 2rem;
+  color: #4a4a4a;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
-.hero-img {
-  width: 100%;
-  height: auto;
+
+h2,
+h3 {
+  color: #4a4a4a;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
+
+p {
+  color: #4a4a4a;
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 footer {
   grid-column: 1 / 5;
 }
