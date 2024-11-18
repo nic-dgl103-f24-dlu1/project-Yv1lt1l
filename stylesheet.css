@@ -62,10 +62,12 @@ body {
     font-size: 1.4rem;
     text-transform: uppercase;
   }
+
   img {
     text-align: center;
     width: 100%;
   }
+
   .hero {
     display: grid;
     max-width: 100%;
@@ -98,9 +100,13 @@ body {
     font-style: normal;
   }
 
+  .about-me {
+    text-align: center;
+  }
+
   .about-me a {
     padding: 5px;
-    color: #00555a;
+    color: #000;
     text-decoration: none;
     font-family: "Nunito";
     font-optical-sizing: auto;
@@ -120,7 +126,7 @@ body {
 
   article a {
     padding: 5px;
-    color: #00555a;
+    color: #000;
     text-decoration: none;
     font-family: "Nunito";
     font-optical-sizing: auto;
@@ -128,6 +134,26 @@ body {
     background-color: #ca6641;
     border: 1px solid #ca6641;
     border-radius: 6px;
+  }
+
+  .call-to-action {
+    text-align: center;
+  }
+
+  .call-to-action a {
+    padding: 5px;
+    color: #000;
+    text-decoration: none;
+    font-family: "Nunito";
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #daa428;
+    border: 1px solid #daa428;
+    border-radius: 6px;
+  }
+
+  .call-to-action h2 {
+    padding-top: 15px;
   }
 
   footer {
