@@ -61,6 +61,9 @@ body {
     font-size: 2rem;
     text-transform: uppercase;
   }
+  img {
+    width: 100%;
+  }
   .hero {
     display: grid;
     max-width: 100%;
@@ -86,6 +89,14 @@ body {
 
   p {
     color: #4a4a4a;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  article a {
+    text-decoration: none;
+    color: #ffff;
     font-family: "Nunito", serif;
     font-optical-sizing: auto;
     font-style: normal;
