@@ -141,7 +141,7 @@ body {
   }
 
   .call-to-action {
-    padding-top: 15px;
+    padding: 30px 0;
     text-align: center;
   }
 
@@ -164,6 +164,15 @@ body {
   footer {
     padding-top: 30px;
     grid-column: 1 / 5;
+    border-top: solid 5px #ca6641;
+    background-color: #25383c;
+  }
+  footer h2 {
+    color: #fff;
+  }
+
+  footer p {
+    color: #fff;
   }
 }
 @media only screen and (min-width: 1200px) {
