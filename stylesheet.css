@@ -19,6 +19,7 @@ body {
   }
 
   h1 {
+    text-align: center;
     font-size: 2rem;
     color: #ffff;
     font-family: "Raleway", serif;
@@ -58,10 +59,11 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 8px;
-    font-size: 2rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
   }
   img {
+    text-align: center;
     width: 100%;
   }
   .hero {
@@ -81,6 +83,7 @@ body {
 
   h2,
   h3 {
+    text-align: center;
     color: #4a4a4a;
     font-family: "Raleway", serif;
     font-optical-sizing: auto;
@@ -88,18 +91,43 @@ body {
   }
 
   p {
+    text-align: center;
     color: #4a4a4a;
     font-family: "Nunito", serif;
     font-optical-sizing: auto;
     font-style: normal;
   }
 
-  article a {
+  .about-me a {
+    padding: 5px;
+    color: #00555a;
     text-decoration: none;
-    color: #ffff;
-    font-family: "Nunito", serif;
+    font-family: "Nunito";
     font-optical-sizing: auto;
     font-style: normal;
+    background-color: #ca6641;
+    border: 1px solid #ca6641;
+    border-radius: 6px;
+  }
+
+  article {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  article a {
+    padding: 5px;
+    color: #00555a;
+    text-decoration: none;
+    font-family: "Nunito";
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #ca6641;
+    border: 1px solid #ca6641;
+    border-radius: 6px;
   }
 
   footer {
