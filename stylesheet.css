@@ -126,6 +126,7 @@ article {
   padding-bottom: 20px;
   margin-bottom: 15px;
   text-align: center;
+  max-width: fit-content;
 }
 
 article a {
@@ -179,10 +180,33 @@ footer p {
   nav ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin: 0 20%;
   }
 
+  .hero {
+    text-align: center;
+  }
+
+  img {
+    text-align: center;
+    max-width: 100%;
+  }
+  article {
+    float: left;
+    width: calc(33.33% - 30px);
+    box-sizing: border-box;
+    margin: 15px;
+  }
+  .call-to-action {
+    clear: both;
+  }
   nav .toggle {
     display: none;
+  }
+
+  footer ul {
+    display: flex;
+    align-items: center;
   }
 }
