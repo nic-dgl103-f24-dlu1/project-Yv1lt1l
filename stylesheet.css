@@ -9,177 +9,179 @@ body {
   grid-template-columns: auto auto auto auto;
   grid-template-rows: auto auto auto auto;
 }
-@media only screen and (max-width: 600px) {
-  header {
-    margin: 0%;
-    background-color: #25383c;
-    display: grid;
-    grid-column: 1/5;
-    border-bottom: solid 5px #ca6641;
-  }
 
-  h1 {
-    text-align: center;
-    font-size: 2rem;
-    color: #ffff;
-    font-family: "Raleway", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
-
-  nav {
-    display: flex;
-    flex-direction: column;
-  }
-
-  nav ul {
-    display: none;
-    flex-direction: column;
-    list-style-type: none;
-  }
-
-  nav .toggle {
-    align-self: flex-end;
-    position: absolute;
-  }
-
-  .show-items {
-    display: flex;
-  }
-
-  nav a {
-    text-decoration: none;
-    color: #ffff;
-    font-family: "Nunito", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
-
-  nav li {
-    display: flex;
-    justify-content: space-between;
-    padding: 8px;
-    font-size: 1.4rem;
-    text-transform: uppercase;
-  }
-
-  img {
-    text-align: center;
-    width: 100%;
-  }
-
-  .hero {
-    display: grid;
-    max-width: 100%;
-    height: auto;
-  }
-
-  .hero h2 {
-    padding-top: 15px;
-    font-size: 2rem;
-    color: #4a4a4a;
-    font-family: "Raleway", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
-
-  h2,
-  h3 {
-    text-align: center;
-    color: #4a4a4a;
-    font-family: "Raleway", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
-
-  p {
-    text-align: center;
-    color: #4a4a4a;
-    font-family: "Nunito", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
-
-  .about-me {
-    text-align: center;
-  }
-
-  .about-me a {
-    padding: 5px;
-    color: #000;
-    text-decoration: none;
-    font-family: "Nunito";
-    font-optical-sizing: auto;
-    font-style: normal;
-    background-color: #ca6641;
-    border: 1px solid #ca6641;
-    border-radius: 6px;
-  }
-
-  .benefits {
-    padding-top: 25px;
-  }
-
-  article {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    padding-bottom: 20px;
-    margin-bottom: 15px;
-    text-align: center;
-  }
-
-  article a {
-    padding: 5px;
-    color: #000;
-    text-decoration: none;
-    font-family: "Nunito";
-    font-optical-sizing: auto;
-    font-style: normal;
-    background-color: #ca6641;
-    border: 1px solid #ca6641;
-    border-radius: 6px;
-  }
-
-  .call-to-action {
-    padding: 30px 0;
-    text-align: center;
-  }
-
-  .call-to-action a {
-    padding: 5px;
-    color: #000;
-    text-decoration: none;
-    font-family: "Nunito";
-    font-optical-sizing: auto;
-    font-style: normal;
-    background-color: #daa428;
-    border: 1px solid #daa428;
-    border-radius: 6px;
-  }
-
-  .call-to-action h2 {
-    padding-top: 15px;
-  }
-
-  footer {
-    padding-top: 30px;
-    grid-column: 1 / 5;
-    border-top: solid 5px #ca6641;
-    background-color: #25383c;
-  }
-  footer h2 {
-    color: #fff;
-  }
-
-  footer p {
-    color: #fff;
-  }
+header {
+  margin: 0%;
+  background-color: #25383c;
+  display: grid;
+  grid-column: 1/5;
+  border-bottom: solid 5px #ca6641;
 }
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #ffff;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul {
+  display: none;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+nav .toggle {
+  align-self: flex-end;
+  position: absolute;
+}
+
+.show-items {
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffff;
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+nav li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+img {
+  text-align: center;
+  width: 100%;
+}
+
+.hero {
+  display: grid;
+  max-width: 100%;
+  height: auto;
+}
+
+.hero h2 {
+  padding-top: 15px;
+  font-size: 2rem;
+  color: #4a4a4a;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h2,
+h3 {
+  text-align: center;
+  color: #4a4a4a;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+p {
+  text-align: center;
+  color: #4a4a4a;
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.about-me {
+  text-align: center;
+}
+
+.about-me a {
+  padding: 5px;
+  color: #000;
+  text-decoration: none;
+  font-family: "Nunito";
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #ca6641;
+  border: 1px solid #ca6641;
+  border-radius: 6px;
+}
+
+.benefits {
+  padding-top: 25px;
+}
+
+article {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+article a {
+  padding: 5px;
+  color: #000;
+  text-decoration: none;
+  font-family: "Nunito";
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #ca6641;
+  border: 1px solid #ca6641;
+  border-radius: 6px;
+}
+
+.call-to-action {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.call-to-action a {
+  padding: 5px;
+  color: #000;
+  text-decoration: none;
+  font-family: "Nunito";
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #daa428;
+  border: 1px solid #daa428;
+  border-radius: 6px;
+}
+
+.call-to-action h2 {
+  padding-top: 15px;
+}
+
+footer {
+  padding-top: 30px;
+  grid-column: 1 / 5;
+  border-top: solid 5px #ca6641;
+  background-color: #25383c;
+}
+footer h2 {
+  color: #fff;
+}
+
+footer p {
+  color: #fff;
+}
+
 @media only screen and (min-width: 1200px) {
   nav ul {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
+
   nav .toggle {
     display: none;
   }
