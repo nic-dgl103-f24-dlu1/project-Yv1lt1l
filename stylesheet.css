@@ -189,7 +189,6 @@ footer p {
   }
 
   img {
-    text-align: center;
     max-width: 100%;
   }
   article {
@@ -201,6 +200,7 @@ footer p {
   .call-to-action {
     clear: both;
   }
+
   nav .toggle {
     display: none;
   }
