@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  margin: 0;
   font-size: 1.6rem;
   background-color: #b7c9e2;
   display: grid;
@@ -177,6 +178,10 @@ footer p {
 }
 
 @media only screen and (min-width: 1200px) {
+  body {
+    margin: 0;
+    max-width: 100%;
+  }
   nav ul {
     display: flex;
     flex-direction: row;
@@ -185,12 +190,14 @@ footer p {
   }
 
   .hero {
-    text-align: center;
+    display: grid;
+    grid-column: 1/5;
   }
 
   img {
     max-width: 100%;
   }
+
   article {
     float: left;
     width: calc(33.33% - 30px);
