@@ -169,6 +169,7 @@ footer {
   border-top: solid 5px #ca6641;
   background-color: #25383c;
 }
+
 footer h2 {
   color: #fff;
 }
@@ -187,6 +188,7 @@ footer p {
     display: grid;
     grid-column: 1/5;
   }
+
   nav ul {
     display: flex;
     flex-direction: row;
