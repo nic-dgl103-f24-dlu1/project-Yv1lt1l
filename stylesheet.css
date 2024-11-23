@@ -140,6 +140,7 @@ article {
 }
 
 article a {
+  font-weight: bold;
   padding: 5px;
   color: #000;
   text-decoration: none;
@@ -221,6 +222,7 @@ footer p {
   }
 
   .about-me a {
+    font-weight: bold;
     justify-self: center;
     width: 15%;
   }
@@ -236,12 +238,14 @@ footer p {
     box-sizing: border-box;
     margin: 15px;
   }
+
   .call-to-action {
     display: grid;
     grid-column: 1/5;
   }
 
   .call-to-action a {
+    font-weight: bold;
     justify-self: center;
     width: 15%;
   }
