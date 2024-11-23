@@ -105,6 +105,15 @@ p {
   text-align: center;
 }
 
+.skillset {
+  font-family: "Nunito";
+  color: #4a4a4a;
+}
+
+.skillset p {
+  padding-top: 30px;
+}
+
 .about-me a {
   padding: 5px;
   color: #000;
@@ -239,6 +248,17 @@ footer p {
 
   nav .toggle {
     display: none;
+  }
+
+  iframe {
+    justify-self: center;
+    max-width: 600px;
+  }
+
+  .skillset {
+    padding-top: 30px;
+    display: grid;
+    grid-column: 2 / 4;
   }
 
   footer ul {
