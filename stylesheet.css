@@ -151,6 +151,26 @@ article a {
   border: 1px solid #ca6641;
   border-radius: 6px;
 }
+.project-list img {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+}
+
+#donut {
+  padding-bottom: 6px;
+  border-bottom: 6px solid #ca6641;
+}
+
+#yamato {
+  justify-items: center;
+  padding-top: 6px;
+  border-bottom: 6px solid #ca6641;
+}
+
+#nagato {
+  padding-top: 6px;
+}
 
 .call-to-action {
   padding: 30px 0;
@@ -178,21 +198,6 @@ footer {
   grid-column: 1 / 5;
   border-top: solid 5px #ca6641;
   background-color: #25383c;
-}
-
-#yamato {
-  text-align: center;
-}
-
-#nagato {
-  text-align: center;
-}
-
-#donut {
-  display: grid;
-  justify-self: center;
-  border-bottom: 3px solid #ca6641;
-  padding-top: 30px;
 }
 
 footer h2 {
@@ -252,6 +257,26 @@ footer p {
     width: calc(33.33% - 30px);
     box-sizing: border-box;
     margin: 15px;
+  }
+
+  .project-list img {
+    max-width: 50%;
+    display: grid;
+    justify-self: center;
+  }
+
+  #donut {
+    padding-bottom: 6px;
+    border-bottom: 6px solid #ca6641;
+  }
+
+  #yamato {
+    padding-top: 6px;
+    border-bottom: 6px solid #ca6641;
+  }
+
+  #nagato {
+    padding-top: 6px;
   }
 
   .call-to-action {
