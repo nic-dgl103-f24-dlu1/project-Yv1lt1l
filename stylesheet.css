@@ -180,6 +180,21 @@ footer {
   background-color: #25383c;
 }
 
+#yamato {
+  text-align: center;
+}
+
+#nagato {
+  text-align: center;
+}
+
+#donut {
+  display: grid;
+  justify-self: center;
+  border-bottom: 3px solid #ca6641;
+  padding-top: 30px;
+}
+
 footer h2 {
   color: #fff;
 }
