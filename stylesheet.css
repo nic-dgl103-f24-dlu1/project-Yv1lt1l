@@ -259,6 +259,11 @@ footer p {
     margin: 15px;
   }
 
+  .my-projects {
+    display: grid;
+    grid-column: 1/5;
+  }
+
   .project-list img {
     max-width: 50%;
     display: grid;
