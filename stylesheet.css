@@ -321,7 +321,7 @@ footer p {
 
   iframe {
     justify-self: center;
-    max-width: 600px;
+    width: 600px;
   }
 
   .skillset {
