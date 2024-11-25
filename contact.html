@@ -37,10 +37,94 @@
       </nav>
     </header>
 
-    <main>
-      <table>
-        <caption></caption>
-      </table>
+    <main class="table-main">
+      <h2>Contact Me</h2>
+      <section class="table">
+        <table>
+          <caption>
+            Here's what I'm capable of:
+          </caption>
+          <thead>
+            <tr>
+              <th>Models/Animation</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                I can create models for both personal, or commercial
+                application.
+              </td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Made in Nov. 2024</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+      <section class="form">
+        <h2>Contact Form (Alpha testing)</h2>
+        <form method="post" action="">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Ex: Will"
+          />
+
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Ex: Smith"
+          />
+
+          <label for="email"
+            >Email<span class="label-required">* (required)</span></label
+          >
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="EX: WillSmith@gmail.com"
+            required
+          />
+
+          <label for="work">What type of render do you want?</label>
+          <select id="work" name="work">
+            <option value="animation">Animation (cost extra)</option>
+            <option value="image">Object (EX: Chair)</option>
+          </select>
+
+          <fieldset>
+            <legend>
+              Do you wish to be in regular contact to ensure your render is
+              perfect? (Selecting 'No' means I can fill in details to my
+              arbitrary judgment.)
+            </legend>
+            <input type="radio" id="Yes" name="Yes" value="Yes" />
+            <label for="Yes">Yes</label><br />
+            <input type="radio" id="No" name="No" value="No" />
+            <label for="No">No</label>
+          </fieldset>
+
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Please give me as many details about your render as possible."
+          ></textarea>
+
+          <div class="button">
+            <input type="reset" value="Reset" />
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </section>
     </main>
     <footer>
       <h2>About Me</h2>

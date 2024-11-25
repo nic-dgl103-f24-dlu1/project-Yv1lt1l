@@ -185,6 +185,40 @@ video {
   padding-top: 15px;
 }
 
+.table-main {
+  display: grid;
+  grid-column: 1/5;
+}
+
+.table {
+  display: grid;
+}
+
+table {
+  font-family: "Nunito";
+  width: 95%;
+  border-collapse: collapse;
+  justify-self: center;
+  padding-bottom: 30px;
+}
+
+caption {
+  font-size: 2rem;
+  font-family: "Raleway", serif;
+  text-align: center;
+  padding: 10px;
+}
+
+thead {
+  background-color: #ca6641;
+}
+
+td,
+th {
+  border: 1px solid #ca6641;
+  padding: 8px;
+}
+
 footer {
   padding-top: 30px;
   grid-column: 1 / 5;
