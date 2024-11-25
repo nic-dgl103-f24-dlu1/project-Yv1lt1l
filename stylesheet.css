@@ -115,6 +115,7 @@ p {
 }
 
 .about-me a {
+  font-weight: bold;
   padding: 5px;
   color: #000;
   text-decoration: none;
