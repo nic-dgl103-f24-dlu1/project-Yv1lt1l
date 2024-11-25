@@ -336,6 +336,12 @@ footer p {
     font-weight: bold;
     justify-self: center;
     width: 15%;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .about-me a:hover {
+    cursor: pointer;
+    background-color: #699be1;
   }
 
   #my-projects {
@@ -359,6 +365,12 @@ footer p {
     width: calc(33.33% - 30px);
     box-sizing: border-box;
     margin: 15px;
+  }
+
+  article a:hover {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background-color: #699be1;
   }
 
   .my-projects {
@@ -397,6 +409,12 @@ footer p {
     font-weight: bold;
     justify-self: center;
     width: 15%;
+  }
+
+  .call-to-action a:hover {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background-color: #699be1;
   }
 
   nav .toggle {
