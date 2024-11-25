@@ -151,7 +151,9 @@ article a {
   border: 1px solid #ca6641;
   border-radius: 6px;
 }
-.project-list img {
+
+.project-list img,
+video {
   width: 100%;
   display: grid;
   justify-items: center;
@@ -170,6 +172,11 @@ article a {
 
 #nagato {
   padding-top: 6px;
+  border-bottom: 6px solid #ca6641;
+}
+
+#HSR {
+  justify-self: center;
 }
 
 .call-to-action {
@@ -247,12 +254,23 @@ footer p {
     width: 15%;
   }
 
+  #my-projects {
+    display: grid;
+    grid-column: 1/5;
+  }
+
+  .projects {
+    display: flex;
+    justify-content: center;
+  }
+
   .benefits {
     display: grid;
     grid-column: 1/5;
   }
 
   article {
+    display: grid;
     float: left;
     width: calc(33.33% - 30px);
     box-sizing: border-box;
@@ -264,7 +282,8 @@ footer p {
     grid-column: 1/5;
   }
 
-  .project-list img {
+  .project-list img,
+  video {
     max-width: 50%;
     display: grid;
     justify-self: center;
@@ -282,6 +301,7 @@ footer p {
 
   #nagato {
     padding-top: 6px;
+    border-bottom: 6px solid #ca6641;
   }
 
   .call-to-action {
