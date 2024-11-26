@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <!--google fonts (Raleway header, Nunito body)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--end google fonts-->
+    <!--menu icon-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&icon_names=menu"
+    />
+    <!--end menu icon-->
+  </head>
+
+  <!--HEADER-->
+
+  <body>
+    <header>
+      <h1>A.M 3D Web Design &amp; Development</h1>
+      <nav>
+        <ul id="nav-items">
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="portfolio.html">portfolio</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+        <a class="toggle" onclick="showNav()"
+          ><span class="material-symbols-outlined"> menu </span></a
+        >
+      </nav>
+    </header>
+
+    <!--TITLE-->
+
+    <main>
+      <section class="my-projects">
+        <h2>My Projects</h2>
+        <p>These are some of the projects I've worked on thus far.</p>
+      </section>
+
+      <!--FIRST PROJECT-->
+
+      <section class="project-list">
+        <div id="donut">
+          <h3>Donut Project</h3>
+          <img
+            src="images/cup-of-tea.jpg"
+            alt="donut on a plate inside donut shop."
+            width="1080"
+          />
+          <p>
+            This is a project I completed over the course of a month. <br />It
+            was my first ever Blender project.
+          </p>
+        </div>
+
+        <!--SECOND PROJECT-->
+
+        <div id="yamato">
+          <h3>Yamato Project</h3>
+          <img
+            src="images/Yamato_ocean.jpg"
+            alt="Model of battleship Yamato on the ocean."
+            width="1080"
+          />
+          <p>
+            This was my first solo project as part of my capstone project, and
+            the one I'm most fond and passionate about. <br />It depicts World
+            War Two Japanese battleship Yamato, the most powerful battleship
+            ever built. This render won artwork of the week against three other
+            classes.
+          </p>
+        </div>
+
+        <!--THIRD PROJECT-->
+
+        <div id="nagato">
+          <h3>Battleship Nagato Project</h3>
+          <img
+            src="images/Finished-front.jpg"
+            alt="Front view of World War One battleship, Nagato."
+            width="1080"
+          />
+          <p>
+            My second solo project was the result of a challenge from a peer. It
+            depicts battleship Nagato in its Second World War configuration.
+            <br />She sustained two direct nuclear blasts as part of post war
+            nuclear testing (Operation Crossroads), only to sink due to a
+            torpedo hit several weeks before.
+          </p>
+        </div>
+
+        <!--FOURTH PROJECT (VIDEO)-->
+
+        <div id="HSR">
+          <h3>Mobile game competition Project</h3>
+          <video
+            src="videos/animation-video.mp4"
+            controls
+            loop
+            title="Mobile Game competition video"
+            poster="images/0001.jpg"
+            preload="metadata"
+          ></video>
+          <p>
+            My third solo project was the result of an international
+            competition. As part of its first anniversary celebration, the
+            mobile game Honkai: Star Rail held a 3D render competition with a
+            cash prize. <br />
+            The competition lasted 1 month. I unfortuntaley didn't win but it
+            was the most fun I've had in the Industry.
+          </p>
+        </div>
+      </section>
+
+      <!--CALL TO ACTION-->
+
+      <section class="call-to-action">
+        <h2>Like what you saw?</h2>
+        <a href="contact.html">Get In Touch!</a>
+      </section>
+    </main>
+
+    <!--FOOTER-->
+
+    <footer>
+      <h2>About Me</h2>
+      <p>
+        I'm a local Canadian 3D artist. I can develope assets for commercial or
+        private use.
+      </p>
+      <nav>
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="portfolio.html">portfolio</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+      </nav>
+    </footer>
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
+  </body>
+</html>
