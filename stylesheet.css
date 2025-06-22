@@ -219,6 +219,10 @@ th {
   border: 1px solid #ca6641;
   padding: 8px;
 }
+.form {
+  display: grid;
+  place-items: center;
+}
 
 footer {
   padding-top: 30px;
