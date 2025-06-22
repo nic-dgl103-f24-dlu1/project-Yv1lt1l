@@ -126,6 +126,7 @@ article {
   margin-bottom: 15px;
   text-align: center;
   max-width: fit-content;
+  border-radius: 1rem;
 }
 
 article a {
@@ -136,7 +137,7 @@ article a {
   font-family: "Nunito";
   background-color: #ca6641;
   border: 1px solid #ca6641;
-  border-radius: 6px;
+  border-radius: 1rem;
 }
 
 .project-list img,
