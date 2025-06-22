@@ -219,9 +219,29 @@ th {
   border: 1px solid #ca6641;
   padding: 8px;
 }
-.form {
+
+.form-embed {
   display: grid;
   place-items: center;
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 1rem;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 0 rgba(0, 0, 0, 0.1);
+}
+
+iframe {
+  width: 100%;
+  border: none;
+  min-height: 80rem;
+}
+
+.google-map {
+  display: grid;
+  place-items: center;
+  width: 36rem;
+  height: 36rem;
 }
 
 footer {
